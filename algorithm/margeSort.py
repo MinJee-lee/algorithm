@@ -1,7 +1,7 @@
 target = [9, 8, 7 , 6, 5, 4, 3, 2, 1]
 
 def merge_sort(array):
-    # global target 
+    
     if len(array) == 1:
         return array
     half = int(len(array)/2)
