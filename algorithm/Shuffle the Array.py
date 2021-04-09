@@ -4,4 +4,4 @@ class Solution:
         for i in range(n):
             result.append(nums[i]) # 첫번째 값
             result.append(nums[i+n]) #두번째 값은 n만큼 더한 위치
-        return result
+        return result   #출력
