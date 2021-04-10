@@ -8,3 +8,14 @@ class Solution:
                 return True # 같으면
             else:    
                 return False # 다르면 
+
+# Other Solution
+
+# class Solution: 
+#     def isPalindrome(self, x: int) -> bool: 
+#         x = list(str(x)) r
+        
+#         return x == x[::-1]
+
+
+                
