@@ -5,7 +5,7 @@ class Solution:
         x = len(s)
         result = dic[s[x-1]]
         for i in range(x-1,0,-1):
-            current = dic[s[i]]
+            cur = dic[s[i]]
             y = dic[s[i-1]]
-            result += y if y >= current else -y
+            result += y if y >= cur else -y
         return result 
