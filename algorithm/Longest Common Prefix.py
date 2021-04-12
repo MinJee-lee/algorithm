@@ -13,14 +13,5 @@ class Solution:
 
         return ( x )
 
-class Solution2: 
-    def longestCommonPrefix(self, strs): 
-        result=[] 
-        for x in zip(*strs): 
-            if len(set(x)) == 1: 
-                result.append(x[0]) 
-                else: 
-                    break 
-                return "".join(prefix)
 
 
